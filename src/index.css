@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+
+.header span{
+color: orangered;}
+
+.nav_menu{
+
+    margin-left: 20px;
+}
+
+.Nav_item{
+    text-decoration: none;
+    color: orangered;
+    padding: 10px;
+
+
+} 
+
+.Nav_item:hover{
+    background-color: orangered;
+    color: white;
+
+}
+.Nav_log{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    text-decoration: none;
+    color: orangered;
+    
+
+
+}
+
+.Nav_log:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+.container{
+    background-color: turquoise;
+    display: flex;
+align-items: center;
+justify-content: space-between; 
+}
+
+.container .submenu{
+    background-color: violet;
+    height: 250px;
+    width: 20%;
+    border-bottom-right-radius: 25px;
+
+}
+
+.container .submenu .box button{
+    padding: 10px;
+    width: 100px;
+    margin: 10px 20px ;
+    cursor: pointer;
+
+}
+
+
+.subbtn{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subbtn:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.container .fileupload {
+    background-color: violet;
+    padding: 10px;
+    border-radius: 3px;
+    color: orangered;
+}
+
+.container .fileupload button{
+    padding: 5px 10px 5px 10px;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.container .fileupload button:hover{
+    background-color: turquoise;
+    color: orangered;
+    cursor: pointer;
+}
+
+.container .floadbtn {
+    position: relative;
+right: 100px;
+top: 500px;
+}
+
+.container .floadbtn button{
+background-color: orangered;
+padding: 20px 25px;
+border-radius: 25px;
+border: 1px turquoise solid;
+cursor: pointer;
+color: white;
+}
+
+.container .floadbtn button:hover{
+    background-color: turquoise;
+    transform: translateX(3px);
+    transition: ease-out 0.3s;
+    box-shadow: 3px 3px 10px black ;
+}
+
+
+
+
+
+/*------Login --------*/
+
+.login{
+    margin: 200px 30%;
+    color: orangered;
+}
+
+.login form{
+    padding: 10px;
+
+}
+
+.login form input{
+    padding: 5px;
+    width: 300px;
+    margin-top: 5px;
+    border: transparent;
+    border-bottom: 2px solid orangered;
+
+}
+.login p{
+    margin-top: 20px;
+    
+}
+
+.login button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    background-color: orangered;
+    border: transparent;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
